@@ -23,7 +23,7 @@ import eventsMeetups from '/src/components/assets/Events and Meetups.svg';
 export const Home = () => {
 
 const navigate = useNavigate();
-
+//onclickevent
   const handleSubmit = () => {
     navigate('/ty');
   };
