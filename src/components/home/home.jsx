@@ -5,6 +5,7 @@ import './home.css'
 import animationData from '../assets/heo-animation.json';
 import Lottie from 'lottie-react'
 // Section one imports
+import brandLogo from '../assets/natil evideya logo-black.png';
 import homeIcon from '/src/components/assets/Home-icon.svg';
 import nameIcon from '/src/components/assets/name-icon.svg';
 import mailIcon from '/src/components/assets/Email-icon.svg';
@@ -37,7 +38,7 @@ const navigate = useNavigate();
       {/* leftdiv */}
       <div className="left col-md-7 p-5">
         {/* logo */}
-        <img src="/src/components/assets/natil evideya logo-black.png" alt="Logo" className="logo mb-3 align-self-start" style={{ width: 140 }} />
+        <img src={brandLogo} alt="Logo" className="logo mb-3 align-self-start" style={{ width: 140 }} />
         {/* animation */}
         <Lottie animationData={animationData} style={{ width: '80%', height: '80%', marginLeft: 20 }} />
         <div className="hero-text mt-5 mb-2">
@@ -160,7 +161,7 @@ const navigate = useNavigate();
     About Naatil-Evideya?
     </h1>
     <div className="col">
-      <img className='' src="/src/components/assets/natil evideya logo-black.png" alt="Logo" />
+      <img className='' src={brandLogo} alt="Logo" />
     </div>
     <div className="col" style={{ flex: '1', color: '#525252', lineHeight: '1.6', maxWidth: '600px',textAlign:'left' }}>
       <p> When Mallus meet outside Kerala, the first question often is, &quot;Naatil Evideya?&quot; (&quot;Where are you from in Kerala?&quot;). 
