@@ -13,3 +13,14 @@
     color: #000842 !important;
   }
   
+  @media (max-width: 575.98px) {
+    
+    .lead{
+      text-align: center;
+    }
+
+    .body p{
+      text-align: center;
+    }
+    
+  }
