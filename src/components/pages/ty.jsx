@@ -18,7 +18,7 @@ export const Ty = () => {
     <div className="d-flex flex-column align-items-center justify-content-center min-vh-100 bg-gradient">
       <div className="position-absolute top-0 start-0 p-4">
         {/* Add your logo image here */}
-        <img src={brandLogo} alt="Naatil Evidya Logo" className="logo mb-3 align-self-start p-3" style={{ width: 180 }} />
+        <img src={brandLogo} alt="Naatil Evidya Logo" className="logo mb-3 align-self-start p-3" style={{ width: 140 }} />
       </div>
       <div className="text-center">
         <div className="mb-2">
