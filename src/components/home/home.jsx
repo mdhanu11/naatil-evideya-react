@@ -48,40 +48,49 @@ export const Home = () => {
     navigate('/ty');
   };
 
-  //VISITOR LOCATION
-  
-  const [, setIpAddress] = useState('');
   const [, setGeoInfo] = useState({});
-  
+
+   //VISITOR LOCATION
+   
   useEffect(() => {
-    // Function to get the visitor's IP address
-    const getVisitorIp = async () => {
-      try {
-        const response = await fetch('https://api.ipify.org?format=json');
-        const data = await response.json();
-        setIpAddress(data.ip);
-        getGeoInfo(data.ip); 
-      } catch (error) {
-        console.error('Error fetching IP address:', error);
+    // Function to get geolocation from the browser
+    const getGeolocation = () => {
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(
+          async (position) => {
+            const { latitude, longitude } = position.coords;
+            await getGeoInfo(latitude, longitude);
+          },
+          (error) => {
+            console.error('Error getting geolocation:', error);
+            document.getElementById('currentCity').value = 'Unable to retrieve location';
+          }
+        );
+      } else {
+        console.error('Geolocation is not supported by this browser.');
+        document.getElementById('currentCity').value = 'Geolocation not supported';
       }
     };
 
-    // Function to get geolocation info based on IP address
-    const getGeoInfo = async (ip) => {
+    // Function to get geolocation info based on latitude and longitude
+    const getGeoInfo = async (latitude, longitude) => {
       try {
-        const response = await fetch(`https://ipapi.co/${ip}/json/`);
+        const response = await fetch(
+          `https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${latitude}&longitude=${longitude}&localityLanguage=en`
+        );
         const data = await response.json();
         setGeoInfo(data);
 
         // Update the currentCity input field with the location name
-        const city = data.city || 'Unknown Location';
+        const city = data.city || data.locality || 'Unknown Location';
         document.getElementById('currentCity').value = city;
       } catch (error) {
         console.error('Error fetching geolocation info:', error);
         document.getElementById('currentCity').value = 'Unable to retrieve location';
       }
     };
-    getVisitorIp();
+
+    getGeolocation();
   }, []);
 
  

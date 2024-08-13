@@ -8,6 +8,7 @@ import faceBook from '../assets/Facebook.svg';
 import linkedIn from '../assets/LinkedIn.svg';
 import twitter from '../assets/twitter.svg';
 import instagram from '../assets/Instagram.svg';
+import preView from '../assets/preview.png';
 
 export const Ty = () => {
   return (
@@ -39,7 +40,7 @@ export const Ty = () => {
               <img src={watsApp} alt="WhatsApp" className="img-fluid" style={{ width: '40px',height:'50px' }} />
               <meta property="og:title" content="Join Naatil Evidya" />
               <meta property="og:description" content="Join 5,500 other Malayalees in our waiting list for Naatil Evidya." />
-              <meta property="og:image" content={watsApp} />
+              <meta property="og:image" content={preView} />
             </a>
 
             <a href="https://www.facebook.com/sharer/sharer.php?u=https://naatil-evideya-react.vercel.app/" target="_blank" rel="noopener noreferrer">
@@ -47,7 +48,7 @@ export const Ty = () => {
               {/* Facebook */}
               <meta property="og:title" content="Join Naatil Evidya" />
               <meta property="og:description" content="Join 5,500 other Malayalees in our waiting list for Naatil Evidya." />
-              <meta property="og:image" content={faceBook} />
+              <meta property="og:image" content={preView} />
             </a>
 
             <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://naatil-evideya-react.vercel.app/" target="_blank" rel="noopener noreferrer">
@@ -55,7 +56,7 @@ export const Ty = () => {
               {/* LinkedIn */}
               <meta property="og:title" content="Join Naatil Evidya" />
               <meta property="og:description" content="Join our waiting list on LinkedIn and stay updated." />
-              <meta property="og:image" content={linkedIn} />
+              <meta property="og:image" content={preView} />
             </a>
 
             <a href="https://twitter.com/intent/tweet?url=https://naatil-evideya-react.vercel.app/&text=Check%20out%20Naatil%20Evidya" target="_blank" rel="noopener noreferrer">
@@ -63,7 +64,7 @@ export const Ty = () => {
               {/* Twitter */}
               <meta property="og:title" content="Naatil Evidya on Twitter" />
               <meta property="og:description" content="Tweet about Naatil Evidya and join our waiting list." />
-              <meta property="og:image" content={twitter} />
+              <meta property="og:image" content={preView} />
             </a>
 
             <a href="https://www.instagram.com/?url=https://naatil-evideya-react.vercel.app/" target="_blank" rel="noopener noreferrer">
@@ -71,7 +72,7 @@ export const Ty = () => {
               {/* Instagram */}
               <meta property="og:title" content="Join Naatil Evidya on Instagram" />
               <meta property="og:description" content="Share Naatil Evidya with your Instagram followers." />
-              <meta property="og:image" content={instagram} />
+              <meta property="og:image" content={preView} />
             </a>
           </div>
         </div>
