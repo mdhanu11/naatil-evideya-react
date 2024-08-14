@@ -40,17 +40,60 @@ const districts = [
 
 export const Home = () => {
 
-  //NAVIGATION
+  //NAVIGATION  //HANDLE SUBMIT
   
   const navigate = useNavigate();
   
-  const handleSubmit = () => {
+  const handleSubmit = async (e) => {
     navigate('/ty');
+    e.preventDefault();
+
+    // Get form data
+    const firstName = document.getElementById('firstName').value.trim();
+    const lastName = document.getElementById('lastName').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const currentCity = document.getElementById('currentCity').value.trim();
+    const naatilEvideya = document.getElementById('naatilEvideya').value;
+
+    // alert if miss any input field
+    if (!firstName || !lastName || !email || !currentCity || !naatilEvideya) {
+      alert('Please fill in all the fields.');
+      return;
+    }
+
+    // parsing as form data
+    const formData = new URLSearchParams();
+    formData.append('name', firstName);
+    formData.append('name', lastName);
+    formData.append('email', email);
+    formData.append('currentCity', currentCity);
+    formData.append('nattilEvideya', naatilEvideya);
+
+    try {
+      // Sending form data
+      const response = await fetch('https://script.google.com/macros/s/AKfycbwk6Jkh5_mJYNip4ADspWGsmOpE9k2-Hw6yGMtp5SZZD_DxSelwHppn-c6Q62QhsZZnsw/exec', {
+        method: 'POST',
+        body: formData,
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded'
+        }
+      });
+
+       // Navigate to the ty page after successful form submission
+      if (response.ok) {
+        alert("submitted");
+        navigate('/ty');
+      } else {
+        alert("failed");
+      }
+    } catch (error) {
+      document.getElementById('response').innerText = 'Error: ' + error;
+    }
   };
 
   const [, setGeoInfo] = useState({});
 
-   //VISITOR LOCATION
+  //VISITOR LOCATION
    
   useEffect(() => {
     // Function to get geolocation from the browser
@@ -128,7 +171,7 @@ export const Home = () => {
             </div>
             {/* Email */}
             <div className="mb-3">
-              <label htmlFor="email" className="form-label">E-mail</label>
+              <label htmlFor="email" className="form-label" id='emial'>E-mail</label>
               <div className="d-flex align-items-center">
                 <img src={mailIcon} alt="Email Icon" className="me-2" />
                 <input type="email" className="form-control underline-input" id="email" placeholder="example@gmail.com" required />
