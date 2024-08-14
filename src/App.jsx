@@ -1,7 +1,7 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Home } from './components/home/home';
-import { Ty } from './components/pages/ty'; // Note the uppercase 'T'
+import { Ty } from './components/pages/ty'; 
 
 function App() {
   return (
