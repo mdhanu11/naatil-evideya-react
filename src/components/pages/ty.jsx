@@ -25,8 +25,7 @@ export const Ty = () => {
           </div>
           <h1 className="display-4 fw-bold text-primary">Thank You!</h1>
           <p className="lead text-primary">
-            You have joined 5,500 other Malayalee&apos;s in our waiting list. <br />
-            We will notify you as soon as we launch!
+          Share the link with friends, family, and fellow expats. The more registrations we get, the closer we are to building our app!
           </p>
 
           <Link to="/" className="btn btn-primary btn-lg rounded-pill mt-3">
