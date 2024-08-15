@@ -10,6 +10,8 @@ import twitter from '../assets/twitter.svg';
 import instagram from '../assets/Instagram.svg';
 import preView from '../assets/preview.png';
 
+//checking
+
 export const Ty = () => {
   return (
     <div className="body">
