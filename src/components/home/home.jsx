@@ -45,7 +45,7 @@ export const Home = () => {
   const navigate = useNavigate();
   
   const handleSubmit = async (e) => {
-    navigate('/ty');
+    // navigate('/ty');
     e.preventDefault();
 
     // Get form data
