@@ -75,7 +75,7 @@ export const Home = () => {
 
     try {
       // Sending form data
-      const response = await fetch('https://script.google.com/macros/s/AKfycbwk6Jkh5_mJYNip4ADspWGsmOpE9k2-Hw6yGMtp5SZZD_DxSelwHppn-c6Q62QhsZZnsw/exec', {
+      const response = await fetch('https://script.google.com/macros/s/AKfycbx0XubluPxZDxvgcyiILcZxslyoeMEZBXa-KP3Tj-qemLQnsk4u7l48cxOz_Svb2P3X/exec', {
         method: 'POST',
         body: formData,
         headers: {
