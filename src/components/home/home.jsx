@@ -45,7 +45,7 @@ export const Home = () => {
   const navigate = useNavigate();
   
   const handleSubmit = async (e) => {
-    navigate('/ty');
+    // navigate('/ty');
     e.preventDefault();
 
     // Get form data
@@ -58,7 +58,10 @@ export const Home = () => {
     // alert if miss any input field
     if (!firstName || !lastName || !email || !currentCity || !naatilEvideya) {
       alert('Please fill in all the fields.');
+      window.location.reload();
       return;
+    } else {
+      window.location.href = '/ty'; 
     }
 
     // parsing as form data
