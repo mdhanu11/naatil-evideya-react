@@ -66,11 +66,12 @@ export const Home = () => {
 
     // parsing as form data
     const formData = new URLSearchParams();
-    formData.append('name', firstName);
-    formData.append('name', lastName);
+    formData.append('name', firstName + lastName);
     formData.append('email', email);
     formData.append('currentCity', currentCity);
     formData.append('nattilEvideya', naatilEvideya);
+    formData.append('latitude', latitude);
+    formData.append('longitude', longitude);
 
     try {
       // Sending form data
@@ -95,6 +96,8 @@ export const Home = () => {
   };
 
   const [, setGeoInfo] = useState({});
+  const [latitude, setLatitude] = useState(null);
+  const [longitude, setLongitude] = useState(null);
 
   //VISITOR LOCATION
    
@@ -105,6 +108,8 @@ export const Home = () => {
         navigator.geolocation.getCurrentPosition(
           async (position) => {
             const { latitude, longitude } = position.coords;
+            setLatitude(latitude);
+            setLongitude(longitude);
             await getGeoInfo(latitude, longitude);
           },
           (error) => {
