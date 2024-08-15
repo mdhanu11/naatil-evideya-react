@@ -61,7 +61,7 @@ export const Home = () => {
       window.location.reload();
       return;
     } else {
-      window.location.href = '/ty'; 
+      navigate('/ty'); 
     }
 
     // parsing as form data
