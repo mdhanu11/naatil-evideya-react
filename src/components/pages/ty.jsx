@@ -8,7 +8,7 @@ import faceBook from '../assets/Facebook.svg';
 import linkedIn from '../assets/LinkedIn.svg';
 import twitter from '../assets/twitter.svg';
 import instagram from '../assets/Instagram.svg';
-import preView from '../assets/preview.png';
+// import preView from '../assets/'
 
 //checking
 
@@ -41,7 +41,7 @@ export const Ty = () => {
               <img src={watsApp} alt="WhatsApp" className="img-fluid" style={{ width: '40px',height:'50px' }} />
               <meta property="og:title" content="Join Naatil Evidya" />
               <meta property="og:description" content="Join 5,500 other Malayalees in our waiting list for Naatil Evidya." />
-              <meta property="og:image" content={preView} />
+              <meta property="og:image" content='../assets/favicon-black.png' />
             </a>
 
             <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.naatil-evideya.com/&text=Join%20Naatil-Evideya%2C%20the%20global%20platform%20connecting%20Malayalees%20worldwide%21%20Be%20a%20part%20of%20our%20vibrant%20beta%20community%20and%20share%20your%20culture%2C%20stories%2C%20and%20experiences.%20Register%20now%20and%20help%20us%20bring%20Malayalees%20closer%20together%21" target="_blank" rel="noopener noreferrer">
@@ -49,7 +49,7 @@ export const Ty = () => {
               {/* Facebook */}
               <meta property="og:title" content="Join Naatil Evidya" />
               <meta property="og:description" content="Join 5,500 other Malayalees in our waiting list for Naatil Evidya." />
-              <meta property="og:image" content={preView} />
+              <meta property="og:image" content='../assets/favicon-black.png' />
             </a>
 
             <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.naatil-evideya.com/&text=Join%20Naatil-Evideya%2C%20the%20global%20platform%20connecting%20Malayalees%20worldwide%21%20Be%20a%20part%20of%20our%20vibrant%20beta%20community%20and%20share%20your%20culture%2C%20stories%2C%20and%20experiences.%20Register%20now%20and%20help%20us%20bring%20Malayalees%20closer%20together%21" target="_blank" rel="noopener noreferrer">
@@ -57,7 +57,7 @@ export const Ty = () => {
               {/* LinkedIn */}
               <meta property="og:title" content="Join Naatil Evidya" />
               <meta property="og:description" content="Join our waiting list on LinkedIn and stay updated." />
-              <meta property="og:image" content={preView} />
+              <meta property="og:image" content='../assets/favicon-black.png' />
             </a>
 
             <a href="https://twitter.com/intent/tweet?url=https://www.naatil-evideya.com/&text=Join%20Naatil-Evideya%2C%20the%20global%20platform%20connecting%20Malayalees%20worldwide%21%20Be%20a%20part%20of%20our%20vibrant%20beta%20community%20and%20share%20your%20culture%2C%20stories%2C%20and%20experiences.%20Register%20now%20and%20help%20us%20bring%20Malayalees%20closer%20together%21" target="_blank" rel="noopener noreferrer">
@@ -65,7 +65,7 @@ export const Ty = () => {
               {/* Twitter */}
               <meta property="og:title" content="Naatil Evidya on Twitter" />
               <meta property="og:description" content="Tweet about Naatil Evidya and join our waiting list." />
-              <meta property="og:image" content={preView} />
+              <meta property="og:image" content='../assets/favicon-black.png' />
             </a>
 
             <a href="https://www.instagram.com/?url=https://www.naatil-evideya.com&text=Join%20Naatil-Evideya%2C%20the%20global%20platform%20connecting%20Malayalees%20worldwide%21%20Be%20a%20part%20of%20our%20vibrant%20beta%20community%20and%20share%20your%20culture%2C%20stories%2C%20and%20experiences.%20Register%20now%20and%20help%20us%20bring%20Malayalees%20closer%20together%21" target="_blank" rel="noopener noreferrer">
@@ -73,7 +73,7 @@ export const Ty = () => {
               {/* Instagram */}
               <meta property="og:title" content="Join Naatil Evidya on Instagram" />
               <meta property="og:description" content="Share Naatil Evidya with your Instagram followers." />
-              <meta property="og:image" content={preView} />
+              <meta property="og:image" content='../assets/favicon-black.png' />
             </a>
           </div>
         </div>
