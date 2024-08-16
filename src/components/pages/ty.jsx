@@ -44,7 +44,7 @@ export const Ty = () => {
               <meta property="og:image" content={preView} />
             </a>
 
-            <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.naatil-evideya.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.naatil-evideya.com/&text=Join%20Naatil-Evideya%2C%20the%20global%20platform%20connecting%20Malayalees%20worldwide%21%20Be%20a%20part%20of%20our%20vibrant%20beta%20community%20and%20share%20your%20culture%2C%20stories%2C%20and%20experiences.%20Register%20now%20and%20help%20us%20bring%20Malayalees%20closer%20together%21" target="_blank" rel="noopener noreferrer">
               <img src={faceBook} alt="Facebook" className="img-fluid" style={{ width: '50px',height:'50px' }} />
               {/* Facebook */}
               <meta property="og:title" content="Join Naatil Evidya" />
@@ -52,7 +52,7 @@ export const Ty = () => {
               <meta property="og:image" content={preView} />
             </a>
 
-            <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.naatil-evideya.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.naatil-evideya.com/&text=Join%20Naatil-Evideya%2C%20the%20global%20platform%20connecting%20Malayalees%20worldwide%21%20Be%20a%20part%20of%20our%20vibrant%20beta%20community%20and%20share%20your%20culture%2C%20stories%2C%20and%20experiences.%20Register%20now%20and%20help%20us%20bring%20Malayalees%20closer%20together%21" target="_blank" rel="noopener noreferrer">
               <img src={linkedIn} alt="LinkedIn" className="img-fluid" style={{ width: '50px',height:'50px' }} />
               {/* LinkedIn */}
               <meta property="og:title" content="Join Naatil Evidya" />
@@ -68,7 +68,7 @@ export const Ty = () => {
               <meta property="og:image" content={preView} />
             </a>
 
-            <a href="https://www.instagram.com/?url=https://www.naatil-evideya.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/?url=https://www.naatil-evideya.com&text=Join%20Naatil-Evideya%2C%20the%20global%20platform%20connecting%20Malayalees%20worldwide%21%20Be%20a%20part%20of%20our%20vibrant%20beta%20community%20and%20share%20your%20culture%2C%20stories%2C%20and%20experiences.%20Register%20now%20and%20help%20us%20bring%20Malayalees%20closer%20together%21" target="_blank" rel="noopener noreferrer">
               <img src={instagram} alt="Instagram" className="img-fluid" style={{ width: '50px',height:'50px' }} />
               {/* Instagram */}
               <meta property="og:title" content="Join Naatil Evidya on Instagram" />
