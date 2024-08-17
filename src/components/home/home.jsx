@@ -66,7 +66,7 @@ export const Home = () => {
 
     // parsing as form data
     const formData = new URLSearchParams();
-    formData.append('name', firstName + lastName);
+    formData.append('name', firstName +" "+ lastName);
     formData.append('email', email);
     formData.append('currentCity', currentCity);
     formData.append('nattilEvideya', naatilEvideya);
