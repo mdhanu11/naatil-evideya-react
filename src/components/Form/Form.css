@@ -1,0 +1,15 @@
+.btn{
+    color: white;
+    font-size: 17px;
+    background-color: #000842;
+    border-radius: 32px;
+  }
+
+  .underline-input {
+    border: none;
+    border-bottom: 1px solid #828282;
+    border-radius: 0;
+    box-shadow: none;
+    padding-left: 0;
+    padding-right: 0;
+  }  
