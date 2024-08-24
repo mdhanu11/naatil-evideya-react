@@ -1,0 +1,26 @@
+.body{
+    background-image: linear-gradient(to bottom, #FFB200, #FFFFFD);
+}
+
+.btn{
+    color: white;
+  font-size: 17px;
+  background-color: #000842;
+  border-radius: 32px;
+}
+/* ty.css */
+.text-primary {
+    color: #000842 !important;
+  }
+  
+  @media (max-width: 575.98px) {
+    
+    .lead{
+      text-align: center;
+    }
+
+    .body p{
+      text-align: center;
+    }
+    
+  }

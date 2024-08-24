@@ -1,16 +1,17 @@
-import './App.css';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { Home } from './components/home/home';
-import { Ty } from './components/pages/ty'; 
+import { Home } from './Home/home';
+import { Ty } from './Pages/Ty';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/ty" element={<Ty />} />
-      </Routes>
-    </Router>
+    <div>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Home/>}/>
+          <Route path='/Ty' element={<Ty/>}/>
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 }
 
