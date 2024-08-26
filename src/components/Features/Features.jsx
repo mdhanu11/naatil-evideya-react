@@ -1,10 +1,10 @@
 // import React from 'react';
-import supportiveCommunity from '../assets/Supportive Community.svg'; 
-import exclusiveContent from '../assets/Exclusive Content.svg';
-import culturalExchange from '../assets/Cultural Exchange.svg';
-import personalizedProfiles from '../assets/Personalized Profiles.svg';
-import globalNetworking from '../assets/Global Networking.svg';
-import eventsMeetups from '../assets/Events and Meetups.svg';
+import supportiveCommunity from '../../assets/Supportive Community.svg'; 
+import exclusiveContent from '../../assets/Exclusive Content.svg';
+import culturalExchange from '../../assets/Cultural Exchange.svg';
+import personalizedProfiles from '../../assets/Personalized Profiles.svg';
+import globalNetworking from '../../assets/Global Networking.svg';
+import eventsMeetups from '../../assets/Events and Meetups.svg';
 
 const FeaturesGrid = () => {
   const features = [

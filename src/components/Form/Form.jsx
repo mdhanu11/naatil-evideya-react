@@ -2,10 +2,10 @@ import './Form.css'
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 //Form Icons
-import nameIcon from '../assets/name-icon.svg';
-import mailIcon from '../assets/Email-icon.svg';
-import currentCityIcon from '../assets/currentcity-icon.svg';
-import homeIcon from '../assets/Home-icon.svg';
+import nameIcon from '../../assets/name-icon.svg';
+import mailIcon from '../../assets/Email-icon.svg';
+import currentCityIcon from '../../assets/currentcity-icon.svg';
+import homeIcon from '../../assets/Home-icon.svg';
 
 
 // Dropdown list (districts)

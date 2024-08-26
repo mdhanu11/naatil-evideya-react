@@ -1,7 +1,27 @@
 // import React from 'react';
 import { Card, Container, Row, Col,  } from 'react-bootstrap';
 import './Cities.css'
-import iconAddCity from '../assets/iconAddCity.png'
+import iconAddCity from '../../assets/iconAddCity.png'
+//cities
+import Dubai from '../../assets/dubai.png'
+import AbuDhabi from '../../assets/abudhabi.png'
+import Doha from '../../assets/doha.png'
+import KuwaitCity from '../../assets/kuwait.png'
+import Riyadh from '../../assets/riyadh.png'
+import Muscat from '../../assets/muscat.png'
+import Jeddah from '../../assets/jeddah.png'
+import London from '../../assets/london.png'
+import Toronto from '../../assets/toronto.png'
+import Sydney from '../../assets/sydney.png'
+//flags
+import UAE from '../../assets/flag-United Arab Emirates.png'
+import Qatar from '../../assets/flag-Qatar.png'
+import Kuwait from '../../assets/flag-Kuwait.png'
+import SaudiArabia from '../../assets/flag-Saudi Arabia.png'
+import Oman from '../../assets/flag-Oman.png'
+import UK from '../../assets/flag-Great Britain.png'
+import Canada from '../../assets/flag-Canada.png'
+import Australia from '../../assets/flag-Australia.png'
 
 const cities = [
   {
@@ -9,80 +29,80 @@ const cities = [
     rank: '#1',
     name: 'Dubai, UAE',
     keralaPopulation: '856,000 Keralites',
-    imgSrc: '/src/components/assets/dubai.png',
-    flagSrc: '/src/components/assets/flag-United Arab Emirates.png',
+    imgSrc: Dubai,
+    flagSrc: UAE,
   },
   {
     id: 2,
     rank: '#2',
     name: 'Abu Dhabi, UAE',
     keralaPopulation: '328,000 Keralites',
-    imgSrc: '/src/components/assets/abudhabi.png',
-    flagSrc: '/src/components/assets/flag-United Arab Emirates.png',
+    imgSrc: AbuDhabi,
+    flagSrc: UAE,
   },
   {
     id: 3,
     rank: '#3',
     name: 'Doha, Qatar',
     keralaPopulation: '240,000 Keralites',
-    imgSrc: '/src/components/assets/doha.png',
-    flagSrc: '/src/components/assets/flag-Qatar.png',
+    imgSrc: Doha,
+    flagSrc: Qatar,
   },
   {
     id: 4,
     rank: '#4',
     name: 'Kuwait City, Kuwait',
     keralaPopulation: '200,000 Keralites',
-    imgSrc: '/src/components/assets/kuwait.png',
-    flagSrc: '/src/components/assets/flag-Kuwait.png',
+    imgSrc: KuwaitCity,
+    flagSrc: Kuwait,
   },
   {
     id: 5,
     rank: '#5',
     name: 'Riyadh, Saudi Arabia',
     keralaPopulation: '190,000 Keralites',
-    imgSrc: '/src/components/assets/riyadh.png',
-    flagSrc: '/src/components/assets/flag-Saudi Arabia.png',
+    imgSrc: Riyadh,
+    flagSrc: SaudiArabia,
   },
   {
     id: 6,
     rank: '#6',
     name: 'Muscat, Oman',
     keralaPopulation: '175,000 Keralites',
-    imgSrc: '/src/components/assets/muscat.png',
-    flagSrc: '/src/components/assets/flag-Oman.png',
+    imgSrc: Muscat,
+    flagSrc: Oman,
   },
   {
     id: 7,
     rank: '#7',
     name: 'Jeddah, Saudi Arabia',
     keralaPopulation: '160,000 Keralites',
-    imgSrc: '/src/components/assets/jeddah.png',
-    flagSrc: '/src/components/assets/flag-Saudi Arabia.png',
+    imgSrc: Jeddah,
+    flagSrc: SaudiArabia,
   },
   {
     id: 8,
     rank: '#8',
     name: 'London, UK',
     keralaPopulation: '120,000 Keralites',
-    imgSrc: '/src/components/assets/london.png',
-    flagSrc: '/src/components/assets/flag-Great Britain.png',
+    imgSrc: London,
+    flagSrc: UK,
   },
   {
     id: 9,
     rank: '#9',
     name: 'Toronto, Canada',
     keralaPopulation: '100,000 Keralites',
-    imgSrc: '/src/components/assets/toronto.png',
-    flagSrc: '/src/components/assets/flag-Canada.png',
+    imgSrc: Toronto,
+    flagSrc: Canada,
   },
   {
     id: 10,
     rank: '#10',
     name: 'Sydney, Australia',
     keralaPopulation: '90,000 Keralites',
-    imgSrc: '/src/components/assets/sydney.png',
-    flagSrc: '/src/components/assets/flag-Australia.png',
+    imgSrc: Sydney,
+    flagSrc: Australia,
   },
 ];
 

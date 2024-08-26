@@ -1,5 +1,5 @@
 // import React from 'react';
-import brandLogo from '../assets/natil evideya logo-black.png'; 
+import brandLogo from '../../assets/natil evideya logo-black.png'; 
 
 const AboutNaatilEvideya = () => {
   return (

@@ -1,14 +1,14 @@
 import './ty.css';
 import { Link } from 'react-router-dom';
 // logo imports
-import brandLogo from '../components/assets/natil evideya logo-black.png';
-import checkMark from '../components/assets/Check Mark.svg';
-import watsApp from '../components/assets/WhatsApp.svg';
-import faceBook from '../components/assets/Facebook.svg';
-import linkedIn from '../components/assets/LinkedIn.svg';
-import twitter from '../components/assets/twitter.svg';
-import instagram from '../components/assets/Instagram.svg';
-// import preView from '../assets/'
+import brandLogo from '../assets/natil evideya logo-black.png';
+import checkMark from '../assets/Check Mark.svg';
+import watsApp from '../assets/WhatsApp.svg';
+import faceBook from '../assets/Facebook.svg';
+import linkedIn from '../assets/LinkedIn.svg';
+import twitter from '../assets/twitter.svg';
+import instagram from '../assets/Instagram.svg';
+
 
 //checking
 

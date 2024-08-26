@@ -1,8 +1,8 @@
 // import React from 'react'
 import './home.css'
-import brandLogo from '../components/assets/natil evideya logo-black.png';
+import brandLogo from '../assets/natil evideya logo-black.png';
 // Lottie imports
-import animationData from '../components/assets/heo-animation.json';
+import animationData from '../assets/heo-animation.json';
 import Lottie from 'lottie-react'
 // import { Form } from 'react-router-dom';
 import {Form} from '../components/Form/Form'
