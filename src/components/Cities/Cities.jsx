@@ -2,7 +2,7 @@
 import { Card, Container, Row, Col,  } from 'react-bootstrap';
 import './Cities.css'
 import iconAddCity from '../../assets/iconAddCity.png'
-//cities
+//cities checking
 import Dubai from '../../assets/dubai.png'
 import AbuDhabi from '../../assets/abudhabi.png'
 import Doha from '../../assets/doha.png'
