@@ -1,7 +1,7 @@
 import './ty.css';
 import { Link } from 'react-router-dom';
 // logo imports
-import brandLogo from '../assets/natil evideya logo-black.png';
+import brandLogo from '../assets/favicon-black.png';
 import checkMark from '../assets/Check Mark.svg';
 import watsApp from '../assets/WhatsApp.svg';
 import faceBook from '../assets/Facebook.svg';
