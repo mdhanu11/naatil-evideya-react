@@ -1,6 +1,6 @@
 // import React from 'react'
 import './home.css'
-import brandLogo from '../assets/natil evideya logo-black.png';
+import brandLogo from '../assets/favicon-black.png';
 // Lottie imports
 import animationData from '../assets/heo-animation.json';
 import Lottie from 'lottie-react'
@@ -18,7 +18,7 @@ export const Home = () => {
        {/* leftdiv */}
        <div className="left col-md-7 p-5 mb-5" >
           {/* logo */}
-          <img src={brandLogo} alt="Logo" className="logo mb-3" style={{ width: 140 }} />
+          <img src={brandLogo} alt="Logo" className="logo mb-3" style={{ width: 120 }} />
           {/* animation */}
           <Lottie animationData={animationData} style={{ width: '80%', height: '80%', marginLeft: '25px' }} />
           <div className="hero-text mt-5 mb-2">

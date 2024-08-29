@@ -1,5 +1,5 @@
 // import React from 'react';
-import brandLogo from '../../assets/natil evideya logo-black.png'; 
+import brandLogo from '../../assets/favicon-black.png'; 
 
 const AboutNaatilEvideya = () => {
   return (
@@ -9,7 +9,7 @@ const AboutNaatilEvideya = () => {
           About Naatil-Evideya?
         </h1>
         <div className="aboutleft col">
-          <img className="logo" src={brandLogo} alt="Logo" />
+          <img className="logo" src={brandLogo} alt="Logo" style={{ width: 140 }}/>
         </div>
         <div className="aboutright col" style={{ flex: '1', color: '#525252', lineHeight: '1.6', maxWidth: '600px', textAlign: 'left' }}>
           <p>

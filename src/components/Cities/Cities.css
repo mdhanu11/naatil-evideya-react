@@ -3,5 +3,6 @@
     height: 202px;
     object-fit: cover;
     object-position: top;
+    filter: brightness(0.8);
   }
   
